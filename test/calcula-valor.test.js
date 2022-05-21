@@ -1,5 +1,5 @@
-const calculaValor = require("../src/calcula-valor");
-// import calculaValor from "../src/calcula-valor.js";
+// const calculaValor = require("../src/calcula-valor");
+import calculaValor from "../src/calcula-valor.js";
 
 describe("calculaMontante", () => {
   test("Deve retornar o capital", () => {
