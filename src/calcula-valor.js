@@ -32,14 +32,14 @@ const calcularPrestacoes = (montante, numeroParcelas) => {
   return resultado;
 };
 
-// export default {
-//   caculaMontante,
-//   arredondar,
-//   calcularPrestacoes,
-// };
-
-module.exports = {
+export default {
   caculaMontante,
   arredondar,
   calcularPrestacoes,
 };
+
+// module.exports = {
+//   caculaMontante,
+//   arredondar,
+//   calcularPrestacoes,
+// };
